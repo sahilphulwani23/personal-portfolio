@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahil's Portfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/splogo.png" type="image/x-icon">
+
+  <!--custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/d2c0fc5d3b.js" crossorigin="anonymous"></script>
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  
+  <!--#MAIN -->
+
+  <main>
+
+    <!-- bg -->
+
+    <video autoplay muted loop id="myVideo">
+      <source src="./assets/Abstract - 47713.mp4" type="video/mp4">
+    </video>
+
+    <!--#SIDEBAR -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/myphoto.jpeg" alt="my photo" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Sahil Phulwani</h1>
+          <p class="title">Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline" style="color:rgb(157, 211, 255) ;"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sahilphulwani.sp@gmail.com" class="contact-link">sahilphulwani.sp@g<br>mail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline" style="color:rgb(157, 211, 255);"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919755808053" class="contact-link">+91 9755808053</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline" style="color:rgb(157, 211, 255);"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Durg, Chhattisgarh, India</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sahilphulwani23/" class="social-link">
+              <i class=" social-icon fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/sahilphulwani23" class="social-link">
+              <i class="social-icon fa-brands fa-github"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.hackerrank.com/sahilphulwani_sp" class="social-link">
+              <i class=" social-icon fa-brands fa-hackerrank"></i>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.codechef.com/users/sahilph23" class="social-link">
+              <img class="social-icon" src="https://img.icons8.com/fluency-systems-regular/26/D3D3D3/codechef.png"/>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!-- main-content -->
+
+    <div class="main-content">
+      <!-- NAVBAR -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About Me</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact Me</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- ABOUT -->
+
+      <article class="about active" data-page="about me">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello,
+            I'm Sahil Phulwani, a 2nd year student at Indian Institute of Information Technology Bhopal pursuing B.Tech in ECE. I am always ready to learn and explore new things as I find all new things fascinating to me. Also, I believe in Learn and grow in public for motivating others and yourself to do best in the situation. 
+          </p>
+
+          <p>
+            Currently, I'm on a path of exploring full stack web development as I find creating UI's of website super interested and fun work to do. I'm a web developer at GNU/Linux Users Club IIIT Bhopal. Also, I am into competitive programming and have acheived 3-stars on codechef.
+          </p>
+        </section>
+
+        <!-- service -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">what i'm doing</h3> 
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/null/external-front-end-ux-and-ui-flaticons-flat-flat-icons.png" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Web development</h4>
+
+                <p class="service-item-text">
+                  I love to create beautiful and performant products with delightful user experiences.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Web development</h4>
+
+                <p class="service-item-text">
+                  I'm skilled enough to understand, plan, develop and test the server-side/business logic of an application.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/null/external-coding-internet-security-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Competitive programming</h4>
+
+                <p class="service-item-text">
+                  I write source code of computer programs which are able to solve given problems. 
+                </p>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!-- POR and Achievements aka testimonials-->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">POR & Achievements</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo.png" alt="GUC logo" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Core team member at GUC IIIT Bhopal</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I work as a Front-End Web Developer in the Team and I contribute in our Club's website to look good and function properly. 
+                    Also, I help in troubleshooting website problems when they arise and update websites as necessary.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://img.icons8.com/fluency-systems-regular/120/b1f2ff/codechef.png" alt="Codechef-1" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>3-star coder at Codechef</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I started competing in contests on codechef from Decemeber2021. Despite ups and down I achieved 3 stars on codechef in August 2022. I know its just the beginning of my journey in Competitive programming and I have many more things to Learn, Grow & Achieve.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://img.icons8.com/fluency-systems-regular/120/b1f2ff/codechef.png" alt="Codechef-2" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Secured Global rank 157</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had secured global rank of 157 in February Long 2022 - II, Division 3 (Rated) contest held at Codechef. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://img.icons8.com/fluency-systems-regular/120/b1f2ff/codechef.png" alt="Codechef-3" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Secured Global rank 26</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had secured global rank of 26 in April Long Two 2022 Division 3 (Rated) contest held at Codechef. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://img.icons8.com/fluency-systems-regular/120/b1f2ff/codechef.png" alt="Codechef-4" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Secured Global rank 60</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had secured global rank of 60 in August Long 2022 Division 3 (Rated) contest held at Codechef. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--testimonials modal -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline" style="color:rgb(157, 211, 255) ;"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/logo.png" alt="GUC logo" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>GUC logo</h4>
+
+              <time datetime="2022-12-01">1 Dec, 2022</time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      </article>
+
+      <!-- #RESUME aka Skills-->
+
+      <article class="resume" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        <section class="skill">
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML5</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS3</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tailwind CSS</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ReactJS</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">NodeJS</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ExpressJS</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+        
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">jQuery</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git/Github</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C/C++</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- PORTFOLIO aka Projects-->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Frontend</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Backend</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>MERN Stack</button>
+            </li> -->
+
+            <li class="filter-item">
+              <button data-filter-btn>Python</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Frontend</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Backend</button>
+              </li>
+
+              <!-- <li class="select-item">
+                <button data-select-item>MERN Stack</button>
+              </li> -->
+
+              <li class="select-item">
+                <button data-select-item>Python</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="frontend">
+              <a href="https://sahilphulwani23.github.io/Expense-tracker/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/expense-tracker.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Expense tracker</h3>
+
+                <p class="project-category">ReactJS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="frontend">
+              <a href="https://sahilphulwani23.github.io/CyberSec-LandingPage/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cybersec.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Landing Page- Cybersec</h3>
+
+                <p class="project-category">Javascript, Bootstrap, HTML5, CSS3</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="frontend">
+              <a href="https://sahilphulwani23.github.io/Drum-Kit/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/drum-kit.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Drum Kit</h3>
+
+                <p class="project-category">Javascript, HTML5, CSS3</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="frontend">
+              <a href="https://sahilphulwani23.github.io/Sahil-Pay/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sahil-pay.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sahil Pay</h3>
+
+                <p class="project-category">Bootstrap, CSS3, HTML5</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python">
+              <a href="https://github.com/sahilphulwani23/Rock-paper-scissors">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/rock-paper.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rock, Paper & Scissors</h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python">
+              <a href="https://github.com/sahilphulwani23/snake-game-python">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/snake-game.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Snake game</h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!----------#CONTACT--------->
+
+      <article class="contact" data-page="contact me">
+
+        <header>
+          <h2 class="h2 article-title">Contact Me</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.697480821988!2d77.40644251469165!3d23.217692984854637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4377bd0627f5%3A0xf968cf9fe4da497a!2sIndian%20Institute%20of%20Information%20Technology%20(IIIT)%20Bhopal!5e0!3m2!1sen!2sin!4v1669823231250!5m2!1sen!2sin";
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:sahilphulwani.sp@gmail.com" method="post" enctype="text/plain" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane" style="color:rgb(157, 211, 255) ;"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- custom js link-->
+  <script src="./assets/js/script.js"></script>
+
+  <!--ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
